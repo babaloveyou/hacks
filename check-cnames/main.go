@@ -83,7 +83,7 @@ func main() {
 				}
 
 				if !resolves(cname) {
-					fmt.Printf("%s : %s :falied!)\n", j.domain,cname)
+					fmt.Printf("%s : %s :Falied!\n", j.domain,cname)
 				}
 			}
 			wg.Done()
